@@ -1,0 +1,69 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary dataflow
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=dataflow/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+    allow_tests_inside_package: 'yes'
+    appveyor:                  'yes'
+    c_extension_function:      'longest'
+    c_extension_module:        '_dataflow'
+    c_extension_optional:      'no'
+    c_extension_support:       'no'
+    c_extension_test_pypi:     'no'
+    c_extension_test_pypi_username: 'neyazbasheer'
+    codacy:                    'yes'
+    codacy_projectid:          '[Get ID from https://app.codacy.com/gh/neyazbasheer/dataflow/settings]'
+    codeclimate:               'yes'
+    codecov:                   'yes'
+    command_line_interface:    'plain'
+    command_line_interface_bin_name: 'dataflow'
+    coveralls:                 'yes'
+    distribution_name:         'dataflow'
+    email:                     'neyaz.basheer@gmail.com'
+    full_name:                 'Neyaz Basheer'
+    github_actions:            'yes'
+    github_actions_osx:        'yes'
+    github_actions_windows:    'yes'
+    license:                   'no'
+    linter:                    'flake8'
+    package_name:              'dataflow'
+    pre_commit:                'yes'
+    pre_commit_formatter:      'black'
+    project_name:              'dataflow'
+    project_short_description: 'Data ops for MLOps'
+    pypi_badge:                'yes'
+    pypi_disable_upload:       'yes'
+    release_date:              'today'
+    repo_hosting:              'github.com'
+    repo_hosting_domain:       'https://github.com/neyazbasheer/dataflow'
+    repo_main_branch:          'main'
+    repo_name:                 'dataflow'
+    repo_username:             'neyazbasheer'
+    scrutinizer:               'yes'
+    setup_py_uses_pytest_runner: 'yes'
+    setup_py_uses_setuptools_scm: 'yes'
+    sphinx_docs:               'yes'
+    sphinx_docs_hosting:       'https://dataflow.readthedocs.io/'
+    sphinx_doctest:            'yes'
+    sphinx_theme:              'sphinx-rtd-theme'
+    test_matrix_configurator:  'yes'
+    test_matrix_separate_coverage: 'yes'
+    travis:                    'yes'
+    travis_osx:                'yes'
+    version:                   '0.0.0'
+    version_manager:           'tbump'
+    website:                   'https://blog.ionelmc.ro'
+    year_from:                 '2023'
+    year_to:                   '2023'

@@ -1,0 +1,11 @@
+name: novator
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+
+dependencies:
+##
+  - tox

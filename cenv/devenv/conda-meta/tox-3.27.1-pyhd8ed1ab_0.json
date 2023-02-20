@@ -1,0 +1,831 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "colorama >=0.4.1",
+    "filelock >=3.0.0",
+    "importlib-metadata >=0.12",
+    "packaging >=14",
+    "pluggy >=0.12.0",
+    "py >=1.4.17",
+    "python >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*",
+    "six >=1.14.0",
+    "tomli >=2.0.1",
+    "virtualenv !=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0"
+  ],
+  "extracted_package_dir": "/home/neyazb/miniconda3/pkgs/tox-3.27.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/tox-3.27.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/tox/__init__.py",
+    "lib/python3.10/site-packages/tox/__main__.py",
+    "lib/python3.10/site-packages/tox/_pytestplugin.py",
+    "lib/python3.10/site-packages/tox/_quickstart.py",
+    "lib/python3.10/site-packages/tox/action.py",
+    "lib/python3.10/site-packages/tox/cli.py",
+    "lib/python3.10/site-packages/tox/config/__init__.py",
+    "lib/python3.10/site-packages/tox/config/parallel.py",
+    "lib/python3.10/site-packages/tox/config/reporter.py",
+    "lib/python3.10/site-packages/tox/constants.py",
+    "lib/python3.10/site-packages/tox/exception.py",
+    "lib/python3.10/site-packages/tox/helper/__init__.py",
+    "lib/python3.10/site-packages/tox/helper/build_isolated.py",
+    "lib/python3.10/site-packages/tox/helper/build_requires.py",
+    "lib/python3.10/site-packages/tox/helper/get_site_package_dir.py",
+    "lib/python3.10/site-packages/tox/helper/get_version.py",
+    "lib/python3.10/site-packages/tox/hookspecs.py",
+    "lib/python3.10/site-packages/tox/interpreters/__init__.py",
+    "lib/python3.10/site-packages/tox/interpreters/common.py",
+    "lib/python3.10/site-packages/tox/interpreters/py_spec.py",
+    "lib/python3.10/site-packages/tox/interpreters/unix.py",
+    "lib/python3.10/site-packages/tox/interpreters/via_path.py",
+    "lib/python3.10/site-packages/tox/interpreters/windows/__init__.py",
+    "lib/python3.10/site-packages/tox/interpreters/windows/pep514.py",
+    "lib/python3.10/site-packages/tox/logs/__init__.py",
+    "lib/python3.10/site-packages/tox/logs/command.py",
+    "lib/python3.10/site-packages/tox/logs/env.py",
+    "lib/python3.10/site-packages/tox/logs/result.py",
+    "lib/python3.10/site-packages/tox/package/__init__.py",
+    "lib/python3.10/site-packages/tox/package/builder/__init__.py",
+    "lib/python3.10/site-packages/tox/package/builder/isolated.py",
+    "lib/python3.10/site-packages/tox/package/builder/legacy.py",
+    "lib/python3.10/site-packages/tox/package/local.py",
+    "lib/python3.10/site-packages/tox/package/view.py",
+    "lib/python3.10/site-packages/tox/reporter.py",
+    "lib/python3.10/site-packages/tox/session/__init__.py",
+    "lib/python3.10/site-packages/tox/session/commands/__init__.py",
+    "lib/python3.10/site-packages/tox/session/commands/help.py",
+    "lib/python3.10/site-packages/tox/session/commands/help_ini.py",
+    "lib/python3.10/site-packages/tox/session/commands/provision.py",
+    "lib/python3.10/site-packages/tox/session/commands/run/__init__.py",
+    "lib/python3.10/site-packages/tox/session/commands/run/parallel.py",
+    "lib/python3.10/site-packages/tox/session/commands/run/sequential.py",
+    "lib/python3.10/site-packages/tox/session/commands/show_config.py",
+    "lib/python3.10/site-packages/tox/session/commands/show_env.py",
+    "lib/python3.10/site-packages/tox/util/__init__.py",
+    "lib/python3.10/site-packages/tox/util/graph.py",
+    "lib/python3.10/site-packages/tox/util/lock.py",
+    "lib/python3.10/site-packages/tox/util/main.py",
+    "lib/python3.10/site-packages/tox/util/path.py",
+    "lib/python3.10/site-packages/tox/util/spinner.py",
+    "lib/python3.10/site-packages/tox/util/stdlib.py",
+    "lib/python3.10/site-packages/tox/venv.py",
+    "lib/python3.10/site-packages/tox/version.py",
+    "lib/python3.10/site-packages/tox/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/_pytestplugin.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/_quickstart.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/action.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/config/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/config/__pycache__/parallel.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/config/__pycache__/reporter.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/exception.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/helper/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/helper/__pycache__/build_isolated.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/helper/__pycache__/build_requires.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/helper/__pycache__/get_site_package_dir.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/helper/__pycache__/get_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/hookspecs.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/interpreters/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/interpreters/__pycache__/common.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/interpreters/__pycache__/py_spec.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/interpreters/__pycache__/unix.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/interpreters/__pycache__/via_path.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/interpreters/windows/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/interpreters/windows/__pycache__/pep514.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/logs/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/logs/__pycache__/command.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/logs/__pycache__/env.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/logs/__pycache__/result.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/package/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/package/builder/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/package/builder/__pycache__/isolated.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/package/builder/__pycache__/legacy.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/package/__pycache__/local.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/package/__pycache__/view.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/reporter.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/__pycache__/help.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/__pycache__/help_ini.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/__pycache__/provision.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/run/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/run/__pycache__/parallel.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/run/__pycache__/sequential.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/__pycache__/show_config.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/session/commands/__pycache__/show_env.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/util/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/util/__pycache__/graph.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/util/__pycache__/lock.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/util/__pycache__/main.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/util/__pycache__/path.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/util/__pycache__/spinner.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/util/__pycache__/stdlib.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/venv.cpython-310.pyc",
+    "lib/python3.10/site-packages/tox/__pycache__/version.cpython-310.pyc",
+    "bin/tox",
+    "bin/tox-quickstart"
+  ],
+  "fn": "tox-3.27.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/neyazb/miniconda3/pkgs/tox-3.27.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "62b743e1030b17163c70654601afb60d",
+  "name": "tox",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/neyazb/miniconda3/pkgs/tox-3.27.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0ecc365aa5959faa0fdb8f211ef36491a0d6b804a64f78b4d2c8adab503bd2ea",
+        "sha256_in_prefix": "0ecc365aa5959faa0fdb8f211ef36491a0d6b804a64f78b4d2c8adab503bd2ea",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "adbfec75d950548e404c297e67494aa544f36b21c54a677c9cab68775873f1d9",
+        "sha256_in_prefix": "adbfec75d950548e404c297e67494aa544f36b21c54a677c9cab68775873f1d9",
+        "size_in_bytes": 7787
+      },
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5cc2f5f4b0898d5ef5bc6160a0b28de9c517265b66d1c833c6948df265a55e18",
+        "sha256_in_prefix": "5cc2f5f4b0898d5ef5bc6160a0b28de9c517265b66d1c833c6948df265a55e18",
+        "size_in_bytes": 8077
+      },
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "sha256_in_prefix": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "38e14dbec679fd67965aff61b4e22a3857410c75ce2ec209fb4624aa6a39a11e",
+        "sha256_in_prefix": "38e14dbec679fd67965aff61b4e22a3857410c75ce2ec209fb4624aa6a39a11e",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e27f029a95b6c725221699edbd6b3ba6eadcb7f584c8954d95ea5ffebc9a0dc8",
+        "sha256_in_prefix": "e27f029a95b6c725221699edbd6b3ba6eadcb7f584c8954d95ea5ffebc9a0dc8",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/tox-3.27.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8fe36196f2c4bb5a63f390c3e2e1152a3ababcd3f41c1295b86f773c9c53c632",
+        "sha256_in_prefix": "8fe36196f2c4bb5a63f390c3e2e1152a3ababcd3f41c1295b86f773c9c53c632",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/tox/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fe3320f552f3ed3b17946908ed34003153dd2d8a0d5296ca93bbe3a8dda914d6",
+        "sha256_in_prefix": "fe3320f552f3ed3b17946908ed34003153dd2d8a0d5296ca93bbe3a8dda914d6",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "site-packages/tox/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "24b88c5ce5a4b4fbec4082d7bb0477d4d4ea51dc740b1d3709600813164b4feb",
+        "sha256_in_prefix": "24b88c5ce5a4b4fbec4082d7bb0477d4d4ea51dc740b1d3709600813164b4feb",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "site-packages/tox/_pytestplugin.py",
+        "path_type": "hardlink",
+        "sha256": "a4dc154407f404877e0305050b2bc317020c24a2179799754c145661a54c9a47",
+        "sha256_in_prefix": "a4dc154407f404877e0305050b2bc317020c24a2179799754c145661a54c9a47",
+        "size_in_bytes": 19321
+      },
+      {
+        "_path": "site-packages/tox/_quickstart.py",
+        "path_type": "hardlink",
+        "sha256": "2e7789dbd99149c0cb4f35c4f8a81d3b9c867298abc17257d1bebce6dd92264d",
+        "sha256_in_prefix": "2e7789dbd99149c0cb4f35c4f8a81d3b9c867298abc17257d1bebce6dd92264d",
+        "size_in_bytes": 9381
+      },
+      {
+        "_path": "site-packages/tox/action.py",
+        "path_type": "hardlink",
+        "sha256": "9b9cc063de6e81b41b975927b7d7cc9b8925d170206fa1e9f4733866bda23f45",
+        "sha256_in_prefix": "9b9cc063de6e81b41b975927b7d7cc9b8925d170206fa1e9f4733866bda23f45",
+        "size_in_bytes": 11782
+      },
+      {
+        "_path": "site-packages/tox/cli.py",
+        "path_type": "hardlink",
+        "sha256": "ad34e13701ec9550fe517b8ae0ec37a9586d9453b52224dbce07e0b331d45c9e",
+        "sha256_in_prefix": "ad34e13701ec9550fe517b8ae0ec37a9586d9453b52224dbce07e0b331d45c9e",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "site-packages/tox/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8d17a0eb7c19e7a9eb4b9cdad82548d9bf3fe8522111ce825bfa6ace1b4dde3c",
+        "sha256_in_prefix": "8d17a0eb7c19e7a9eb4b9cdad82548d9bf3fe8522111ce825bfa6ace1b4dde3c",
+        "size_in_bytes": 76104
+      },
+      {
+        "_path": "site-packages/tox/config/parallel.py",
+        "path_type": "hardlink",
+        "sha256": "3057bad8feeb588d7f1337bd2b3cd5a54a995076463e54eea7180151b16b9dba",
+        "sha256_in_prefix": "3057bad8feeb588d7f1337bd2b3cd5a54a995076463e54eea7180151b16b9dba",
+        "size_in_bytes": 2062
+      },
+      {
+        "_path": "site-packages/tox/config/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "c301625b28be8ed8fab1b05c9b48d3649d572bfce25dd8fdce2292e61a28b7fc",
+        "sha256_in_prefix": "c301625b28be8ed8fab1b05c9b48d3649d572bfce25dd8fdce2292e61a28b7fc",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "site-packages/tox/constants.py",
+        "path_type": "hardlink",
+        "sha256": "a1790c200f0e96abeebf41fe3da4fc3deee7c7c87cd2ed9a58b5319dc887f7fa",
+        "sha256_in_prefix": "a1790c200f0e96abeebf41fe3da4fc3deee7c7c87cd2ed9a58b5319dc887f7fa",
+        "size_in_bytes": 1972
+      },
+      {
+        "_path": "site-packages/tox/exception.py",
+        "path_type": "hardlink",
+        "sha256": "d09f8e088c56694f29ff8bb1e637181fb23886cc954ce5d4ebe70c20715529e3",
+        "sha256_in_prefix": "d09f8e088c56694f29ff8bb1e637181fb23886cc954ce5d4ebe70c20715529e3",
+        "size_in_bytes": 3434
+      },
+      {
+        "_path": "site-packages/tox/helper/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tox/helper/build_isolated.py",
+        "path_type": "hardlink",
+        "sha256": "235e1b845bc92ad8771952081676ddf12fb5c6eb9a10d3aa96b374bd21da4eba",
+        "sha256_in_prefix": "235e1b845bc92ad8771952081676ddf12fb5c6eb9a10d3aa96b374bd21da4eba",
+        "size_in_bytes": 1251
+      },
+      {
+        "_path": "site-packages/tox/helper/build_requires.py",
+        "path_type": "hardlink",
+        "sha256": "d3a374e541c7299c7e0dd8ab5550d427ab854eb3d7ba9f30cfad9ba4676e7a1b",
+        "sha256_in_prefix": "d3a374e541c7299c7e0dd8ab5550d427ab854eb3d7ba9f30cfad9ba4676e7a1b",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "site-packages/tox/helper/get_site_package_dir.py",
+        "path_type": "hardlink",
+        "sha256": "8ac3a5ba233a200de8f59457d3092b3ac258083aeeb2a62e7806b1cd409ff30c",
+        "sha256_in_prefix": "8ac3a5ba233a200de8f59457d3092b3ac258083aeeb2a62e7806b1cd409ff30c",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "site-packages/tox/helper/get_version.py",
+        "path_type": "hardlink",
+        "sha256": "ecbe010a4b461034f6dd3cf68112fae8da7629c89cf39438e82357beb628986d",
+        "sha256_in_prefix": "ecbe010a4b461034f6dd3cf68112fae8da7629c89cf39438e82357beb628986d",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "site-packages/tox/hookspecs.py",
+        "path_type": "hardlink",
+        "sha256": "0c5f56ddcfbd782baea12957184cf7b4e1d3cee7f5693315ac515c9f229d4805",
+        "sha256_in_prefix": "0c5f56ddcfbd782baea12957184cf7b4e1d3cee7f5693315ac515c9f229d4805",
+        "size_in_bytes": 3903
+      },
+      {
+        "_path": "site-packages/tox/interpreters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8a8fd2da129c43343ad2e468aa562be1ac3fd476a035819ab27b3ddbaa45b1fa",
+        "sha256_in_prefix": "8a8fd2da129c43343ad2e468aa562be1ac3fd476a035819ab27b3ddbaa45b1fa",
+        "size_in_bytes": 4379
+      },
+      {
+        "_path": "site-packages/tox/interpreters/common.py",
+        "path_type": "hardlink",
+        "sha256": "7592f297dc7cf99ada83ca5e850ea8002fc5edbe8c4b8393a7d4fb1e607d9ca9",
+        "sha256_in_prefix": "7592f297dc7cf99ada83ca5e850ea8002fc5edbe8c4b8393a7d4fb1e607d9ca9",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "site-packages/tox/interpreters/py_spec.py",
+        "path_type": "hardlink",
+        "sha256": "fbb7eab3ed2df0c82900ba0fd26689546e3a3833c31323764aceb3a105f8994d",
+        "sha256_in_prefix": "fbb7eab3ed2df0c82900ba0fd26689546e3a3833c31323764aceb3a105f8994d",
+        "size_in_bytes": 2448
+      },
+      {
+        "_path": "site-packages/tox/interpreters/unix.py",
+        "path_type": "hardlink",
+        "sha256": "2f846b46f0fc57a0693583cb4e36c7d8237110fd6ed440981fc5e8f816133bc2",
+        "sha256_in_prefix": "2f846b46f0fc57a0693583cb4e36c7d8237110fd6ed440981fc5e8f816133bc2",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "site-packages/tox/interpreters/via_path.py",
+        "path_type": "hardlink",
+        "sha256": "8a6f361a21c5a93110578b3f48654f68cd076ab9e16d19b32b145d46e9853037",
+        "sha256_in_prefix": "8a6f361a21c5a93110578b3f48654f68cd076ab9e16d19b32b145d46e9853037",
+        "size_in_bytes": 2231
+      },
+      {
+        "_path": "site-packages/tox/interpreters/windows/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5dcc0dc64d1f5bdb3e6ff662fb807a30788929db7eb9bc23a01977a796bb30d5",
+        "sha256_in_prefix": "5dcc0dc64d1f5bdb3e6ff662fb807a30788929db7eb9bc23a01977a796bb30d5",
+        "size_in_bytes": 1442
+      },
+      {
+        "_path": "site-packages/tox/interpreters/windows/pep514.py",
+        "path_type": "hardlink",
+        "sha256": "5360b1d92cdc2bdb742e9f2c1e5f54ac7dfc5ff4e36af3636e16d508d8c41480",
+        "sha256_in_prefix": "5360b1d92cdc2bdb742e9f2c1e5f54ac7dfc5ff4e36af3636e16d508d8c41480",
+        "size_in_bytes": 5335
+      },
+      {
+        "_path": "site-packages/tox/logs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "017affb365bdf892d5e214fcfd31abf2794bdb8a2d93a6af488818bc15319321",
+        "sha256_in_prefix": "017affb365bdf892d5e214fcfd31abf2794bdb8a2d93a6af488818bc15319321",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/tox/logs/command.py",
+        "path_type": "hardlink",
+        "sha256": "bff35e387738e408f18fc292092c8352314157a53df2048fdf822d40b5adecaf",
+        "sha256_in_prefix": "bff35e387738e408f18fc292092c8352314157a53df2048fdf822d40b5adecaf",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "site-packages/tox/logs/env.py",
+        "path_type": "hardlink",
+        "sha256": "bed799b68acd39a4b70deef8b6b78c8f16bb9a8b85a4c3008298340af5a345c4",
+        "sha256_in_prefix": "bed799b68acd39a4b70deef8b6b78c8f16bb9a8b85a4c3008298340af5a345c4",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/tox/logs/result.py",
+        "path_type": "hardlink",
+        "sha256": "28e0a622eefc2b45ab8bc269a0f19997768b7f777564da86a694e0d9039a0dc9",
+        "sha256_in_prefix": "28e0a622eefc2b45ab8bc269a0f19997768b7f777564da86a694e0d9039a0dc9",
+        "size_in_bytes": 1260
+      },
+      {
+        "_path": "site-packages/tox/package/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "98d69aac814c50826eabbae07977e169c6d92135fb492ee467c879743acd36a8",
+        "sha256_in_prefix": "98d69aac814c50826eabbae07977e169c6d92135fb492ee467c879743acd36a8",
+        "size_in_bytes": 2563
+      },
+      {
+        "_path": "site-packages/tox/package/builder/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b4bec80b6afbc48706efb5fccec8ebea87f293789905e514aa3f1110c72f1b84",
+        "sha256_in_prefix": "b4bec80b6afbc48706efb5fccec8ebea87f293789905e514aa3f1110c72f1b84",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "site-packages/tox/package/builder/isolated.py",
+        "path_type": "hardlink",
+        "sha256": "77e328a0931779614bab1d1725165095da5e40d6dd8315fb61c29fc930f92175",
+        "sha256_in_prefix": "77e328a0931779614bab1d1725165095da5e40d6dd8315fb61c29fc930f92175",
+        "size_in_bytes": 5465
+      },
+      {
+        "_path": "site-packages/tox/package/builder/legacy.py",
+        "path_type": "hardlink",
+        "sha256": "e250b8f37fbc746f7e5572749f3e001aa5c5d3f46c590b68883751930e6aa64d",
+        "sha256_in_prefix": "e250b8f37fbc746f7e5572749f3e001aa5c5d3f46c590b68883751930e6aa64d",
+        "size_in_bytes": 2261
+      },
+      {
+        "_path": "site-packages/tox/package/local.py",
+        "path_type": "hardlink",
+        "sha256": "9e9905958a7e964d9a6bbae910048100957ea15955622d6a1686fb3bc7ff077b",
+        "sha256_in_prefix": "9e9905958a7e964d9a6bbae910048100957ea15955622d6a1686fb3bc7ff077b",
+        "size_in_bytes": 1865
+      },
+      {
+        "_path": "site-packages/tox/package/view.py",
+        "path_type": "hardlink",
+        "sha256": "b56e1291ee173446de9a2a49ae588891e87ceda5c5804576815c5fcd3c5a87f6",
+        "sha256_in_prefix": "b56e1291ee173446de9a2a49ae588891e87ceda5c5804576815c5fcd3c5a87f6",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "site-packages/tox/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "aee4b417aa8ac6eab009479b0d3823e30f8a0c0476022348c40f8442b16c65d7",
+        "sha256_in_prefix": "aee4b417aa8ac6eab009479b0d3823e30f8a0c0476022348c40f8442b16c65d7",
+        "size_in_bytes": 4617
+      },
+      {
+        "_path": "site-packages/tox/session/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "96cca83bbd3230c86e800810a5b648e49c63ec401fb269b4283f838956a1fdd5",
+        "sha256_in_prefix": "96cca83bbd3230c86e800810a5b648e49c63ec401fb269b4283f838956a1fdd5",
+        "size_in_bytes": 10985
+      },
+      {
+        "_path": "site-packages/tox/session/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tox/session/commands/help.py",
+        "path_type": "hardlink",
+        "sha256": "5bef82ddb534296e297de040d937db25d696fc83387d11a73f48da6c19b2e241",
+        "sha256_in_prefix": "5bef82ddb534296e297de040d937db25d696fc83387d11a73f48da6c19b2e241",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "site-packages/tox/session/commands/help_ini.py",
+        "path_type": "hardlink",
+        "sha256": "0a61bbc87989927c4b0024cf792fcc3c6cdeb8d78d2659003108c55685702a12",
+        "sha256_in_prefix": "0a61bbc87989927c4b0024cf792fcc3c6cdeb8d78d2659003108c55685702a12",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "site-packages/tox/session/commands/provision.py",
+        "path_type": "hardlink",
+        "sha256": "c2845b44499e369f75b39b5f566f25e648042a8174fd7de5bf379fc27c68fb16",
+        "sha256_in_prefix": "c2845b44499e369f75b39b5f566f25e648042a8174fd7de5bf379fc27c68fb16",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "site-packages/tox/session/commands/run/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tox/session/commands/run/parallel.py",
+        "path_type": "hardlink",
+        "sha256": "a06550982c4085855e3f38fb4d2cabfdda1b85f9120c9d55b30282475ff49c9c",
+        "sha256_in_prefix": "a06550982c4085855e3f38fb4d2cabfdda1b85f9120c9d55b30282475ff49c9c",
+        "size_in_bytes": 5614
+      },
+      {
+        "_path": "site-packages/tox/session/commands/run/sequential.py",
+        "path_type": "hardlink",
+        "sha256": "3e86336a017920c43a06d9a0fec38e0e129c609010395a89ea98e438e4e171a5",
+        "sha256_in_prefix": "3e86336a017920c43a06d9a0fec38e0e129c609010395a89ea98e438e4e171a5",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "site-packages/tox/session/commands/show_config.py",
+        "path_type": "hardlink",
+        "sha256": "b1727fd074ff101fd0bf46e44c5c93090490d5fa566c9ede905ca9fb74740f8b",
+        "sha256_in_prefix": "b1727fd074ff101fd0bf46e44c5c93090490d5fa566c9ede905ca9fb74740f8b",
+        "size_in_bytes": 2419
+      },
+      {
+        "_path": "site-packages/tox/session/commands/show_env.py",
+        "path_type": "hardlink",
+        "sha256": "722764ed6241eaee49d9fa12bbeba993239299e555c6e31631fc4e60d7449ac8",
+        "sha256_in_prefix": "722764ed6241eaee49d9fa12bbeba993239299e555c6e31631fc4e60d7449ac8",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "site-packages/tox/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5ab19d23a1478218bc2c2aa7b6b9e5d2cf48ce26e14ba3a8235e3a6efce2ef74",
+        "sha256_in_prefix": "5ab19d23a1478218bc2c2aa7b6b9e5d2cf48ce26e14ba3a8235e3a6efce2ef74",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "site-packages/tox/util/graph.py",
+        "path_type": "hardlink",
+        "sha256": "5603b4c584424ae46d273b779069e2f33ff9fcdbbceda56b9cfbe4b5b2480dce",
+        "sha256_in_prefix": "5603b4c584424ae46d273b779069e2f33ff9fcdbbceda56b9cfbe4b5b2480dce",
+        "size_in_bytes": 2199
+      },
+      {
+        "_path": "site-packages/tox/util/lock.py",
+        "path_type": "hardlink",
+        "sha256": "22a107d0ade6f50ea13fa83ff103d5532aa48d460240de6c3af297a2d16b6f9e",
+        "sha256_in_prefix": "22a107d0ade6f50ea13fa83ff103d5532aa48d460240de6c3af297a2d16b6f9e",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "site-packages/tox/util/main.py",
+        "path_type": "hardlink",
+        "sha256": "21b8cb9b6af382fa95b731f52902f6597e4a7c32343e9b24252d4087f4aeedb6",
+        "sha256_in_prefix": "21b8cb9b6af382fa95b731f52902f6597e4a7c32343e9b24252d4087f4aeedb6",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/tox/util/path.py",
+        "path_type": "hardlink",
+        "sha256": "fa5f5604fb6821dd4c3510fad5ffcb521cacf775301270b5bd0838e97f8e2002",
+        "sha256_in_prefix": "fa5f5604fb6821dd4c3510fad5ffcb521cacf775301270b5bd0838e97f8e2002",
+        "size_in_bytes": 729
+      },
+      {
+        "_path": "site-packages/tox/util/spinner.py",
+        "path_type": "hardlink",
+        "sha256": "7720f7546027096cf64fecaf301871eead02359823f24dcabe33cb5b0635a649",
+        "sha256_in_prefix": "7720f7546027096cf64fecaf301871eead02359823f24dcabe33cb5b0635a649",
+        "size_in_bytes": 5688
+      },
+      {
+        "_path": "site-packages/tox/util/stdlib.py",
+        "path_type": "hardlink",
+        "sha256": "f2fa9da6b60655bdce7e45c75dae2967dc82670e845763141f556d1ed001672b",
+        "sha256_in_prefix": "f2fa9da6b60655bdce7e45c75dae2967dc82670e845763141f556d1ed001672b",
+        "size_in_bytes": 1624
+      },
+      {
+        "_path": "site-packages/tox/venv.py",
+        "path_type": "hardlink",
+        "sha256": "6a322c319e91d01292ce689252eb40bfc689190febba0d8803e2fea0d18ea1b0",
+        "sha256_in_prefix": "6a322c319e91d01292ce689252eb40bfc689190febba0d8803e2fea0d18ea1b0",
+        "size_in_bytes": 30849
+      },
+      {
+        "_path": "site-packages/tox/version.py",
+        "path_type": "hardlink",
+        "sha256": "0b248319daca7428168770fcc5965688734828a7efe670e26d10afbb142a05f8",
+        "sha256_in_prefix": "0b248319daca7428168770fcc5965688734828a7efe670e26d10afbb142a05f8",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/_pytestplugin.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/_quickstart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/action.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/cli.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/config/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/config/__pycache__/parallel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/config/__pycache__/reporter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/exception.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/helper/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/helper/__pycache__/build_isolated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/helper/__pycache__/build_requires.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/helper/__pycache__/get_site_package_dir.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/helper/__pycache__/get_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/hookspecs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/interpreters/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/interpreters/__pycache__/common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/interpreters/__pycache__/py_spec.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/interpreters/__pycache__/unix.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/interpreters/__pycache__/via_path.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/interpreters/windows/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/interpreters/windows/__pycache__/pep514.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/logs/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/logs/__pycache__/command.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/logs/__pycache__/env.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/logs/__pycache__/result.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/package/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/package/builder/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/package/builder/__pycache__/isolated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/package/builder/__pycache__/legacy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/package/__pycache__/local.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/package/__pycache__/view.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/reporter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/__pycache__/help.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/__pycache__/help_ini.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/__pycache__/provision.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/run/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/run/__pycache__/parallel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/run/__pycache__/sequential.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/__pycache__/show_config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/session/commands/__pycache__/show_env.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/util/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/util/__pycache__/graph.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/util/__pycache__/lock.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/util/__pycache__/main.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/util/__pycache__/path.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/util/__pycache__/spinner.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/util/__pycache__/stdlib.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/venv.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tox/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/tox",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/tox-quickstart",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tox",
+  "sha256": "408a6969022cb11928c9fa3c7070833d79baac7068f0c2b7ac74da8edd3e0179",
+  "size": 110546,
+  "subdir": "noarch",
+  "timestamp": 1668431886429,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/tox-3.27.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "3.27.1"
+}
